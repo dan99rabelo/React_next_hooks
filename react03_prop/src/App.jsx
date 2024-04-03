@@ -1,12 +1,13 @@
 import React from "react";
-import HookF from "./components/UseState";
+
+import Hook3 from "./components/UseState3";
 
 function App(){
 
     return (
         <>
             <h3>Area de Trabalho</h3>
-            <HookF />
+            <Hook3 />
         </>
     )
 }
