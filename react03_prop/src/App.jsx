@@ -1,14 +1,13 @@
 import React from "react";
+import useState from "react";
 
-import Hook3 from "./components/UseState3";
+export default function App(){
 
-function App(){
+    
 
-    return (
+    return(
         <>
-            <h3>Area de Trabalho</h3>
-            <Hook3 />
+            <h1>Ola, React</h1>
         </>
     )
 }
-export default App
